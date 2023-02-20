@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50c765d2-c140-4707-ba9c-ab07b8cde27b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/DataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/CarParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/CarSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/GearType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/market/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/market/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/market/MarketType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/Finder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cars_db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/countries_db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/producer_db.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Lp8pJD8AwyckGN0AFw7dNtZqLE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mdziewa/IdeaProjects/JavaWeek1.4/src/main/resources/ba&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdziewa\IdeaProjects\JavaWeek1.4\src\main\resources\ba" />
+      <recent name="C:\Users\mdziewa\IdeaProjects\JavaWeek1.4\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mdziewa\IdeaProjects\JavaWeek1.4\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sii.academy.data" />
+      <recent name="com.sii.academy.car.carparams" />
+      <recent name="com.sii.academy.car.market" />
+      <recent name="com.sii.academy.main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JavaWeek1.4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sii.academy.main.Main" />
+      <module name="JavaWeek1.4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50c765d2-c140-4707-ba9c-ab07b8cde27b" name="Changes" comment="" />
+      <created>1676556853203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676556853203</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/Dimensions.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/Finder.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
