@@ -14,12 +14,13 @@ import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class DataHandler {
-    private DataHandler(){}
     private static final String COUNTRIES_DB_FILE = "countries_db.txt";
     private static final String PRODUCER_DB_FILE = "producer_db.txt";
     private static final String CARS_DB_FILE = "cars_db.txt";
     private static final List<Country> allCountries = new ArrayList<>();
     private static final List<Producer> allProducers = new ArrayList<>();
+    private DataHandler() {
+    }
 
     public static void loadDataFromFiles() throws URISyntaxException, IOException {
         List<String> temp;

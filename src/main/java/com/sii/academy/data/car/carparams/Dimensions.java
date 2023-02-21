@@ -70,17 +70,7 @@ public class Dimensions implements CarParam {
                 '}';
     }
 
-    public boolean compareDimension(Dimensions dimensions, String sign) {
-        if (sign.equals("<")) {
-            return compareLessThan(dimensions);
-        } else if (sign.equals(">")) {
-            return compareMoreThan(dimensions);
-        } else {
-            return compareEqual(dimensions);
-        }
-    }
-
-    private boolean compareEqual(Dimensions dimensions) {
+    public boolean compareEqual(Dimensions dimensions) {
         boolean result = true;
         if (dimensions.height != 0) {
             result = result && height == dimensions.height;
@@ -97,7 +87,7 @@ public class Dimensions implements CarParam {
         return result;
     }
 
-    private boolean compareMoreThan(Dimensions dimensions) {
+    public boolean compareMoreThan(Dimensions dimensions) {
         boolean result = true;
         if (dimensions.height != 0) {
             result = result && height > dimensions.height;
@@ -114,7 +104,7 @@ public class Dimensions implements CarParam {
         return result;
     }
 
-    private boolean compareLessThan(Dimensions dimensions) {
+    public boolean compareLessThan(Dimensions dimensions) {
         boolean result = true;
         if (dimensions.height != 0) {
             result = result && height < dimensions.height;
@@ -130,4 +120,6 @@ public class Dimensions implements CarParam {
         }
         return result;
     }
+
+
 }

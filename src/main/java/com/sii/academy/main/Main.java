@@ -5,11 +5,13 @@ import com.sii.academy.data.car.Car;
 import com.sii.academy.data.car.carparams.CarParam;
 import com.sii.academy.data.car.carparams.Dimensions;
 import com.sii.academy.data.car.carparams.Producer;
+import com.sii.academy.data.car.finder.DimensionLessComparator;
 import com.sii.academy.data.car.finder.Finder;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -18,7 +20,8 @@ public class Main {
         carList.forEach(System.out::println);
         List<CarParam> knownParams = createParamsToTest();
         List<Car> carListToTest = DataHandler.buildCarsFromFile();
-        Finder.findCarInList(carListToTest, knownParams, ">").forEach(System.out::println); // Look for citroen zx with possible height bigger than 340
+        Comparator<Dimensions> comparator = new DimensionLessComparator(); // implement comparator related to dimensions equality you need
+        Finder.findCarInList(carListToTest, knownParams, comparator).forEach(System.out::println); // Look for citroen zx with possible height bigger than 340
     }
 
     private static List<CarParam> createParamsToTest() {

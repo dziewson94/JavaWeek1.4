@@ -4,31 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50c765d2-c140-4707-ba9c-ab07b8cde27b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/DataHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/CarParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/CarSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/Dimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/GearType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/market/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/market/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/market/MarketType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/Finder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cars_db.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/countries_db.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/producer_db.txt" afterDir="false" />
+    <list default="true" id="50c765d2-c140-4707-ba9c-ab07b8cde27b" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/DimensionBiggerComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/DimensionEqualComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/DimensionLessComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/Dimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/Dimensions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/market/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/market/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/Finder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/academy/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/academy/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +25,7 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,6 +51,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mdziewa/IdeaProjects/JavaWeek1.4/src/main/resources/ba&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -104,19 +91,26 @@
       <option name="presentableId" value="Default" />
       <updated>1676556853203</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1676879680844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676879680844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/carparams/Dimensions.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sii/academy/data/car/finder/Finder.java</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

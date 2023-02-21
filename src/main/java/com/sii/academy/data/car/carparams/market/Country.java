@@ -7,6 +7,7 @@ import java.util.Objects;
 public class Country implements CarParam {
     private String countryName;
     private char countrySign;
+
     public Country(String countryName, char countrySign) {
         this.countryName = countryName;
         this.countrySign = countrySign;
